@@ -6,9 +6,10 @@
 // @include     *://steamcommunity.com/id/*/
 // @include     *://steamcommunity.com/profiles/*
 // @include     *://steamcommunity.com/profiles/*/
-// @version     1.0.0
+// @version     1.0.1
 // @require     https://www.traderep.org/js/modules.min.js
 // @grant       GM_setClipboard
+// @run-at      document-start
 // ==/UserScript==
 
 document.addEventListener('DOMContentLoaded', function() {
