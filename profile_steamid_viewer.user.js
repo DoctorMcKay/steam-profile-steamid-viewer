@@ -6,7 +6,7 @@
 // @include     *://steamcommunity.com/id/*/
 // @include     *://steamcommunity.com/profiles/*
 // @include     *://steamcommunity.com/profiles/*/
-// @version     1.0.1
+// @version     1.0.2
 // @require     https://www.doctormckay.com/js/modules.min.js
 // @grant       GM_setClipboard
 // @run-at      document-start
