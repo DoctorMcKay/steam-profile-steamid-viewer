@@ -6,9 +6,10 @@
 // @include     *://steamcommunity.com/id/*/
 // @include     *://steamcommunity.com/profiles/*
 // @include     *://steamcommunity.com/profiles/*/
-// @version     1.0.2
-// @require     https://www.doctormckay.com/js/modules.min.js
+// @version     1.0.3
+// @require     https://raw.githubusercontent.com/DoctorMcKay/steam-profile-steamid-viewer/master/modules.min.js
 // @grant       GM_setClipboard
+// @grant       GM.setClipboard
 // @run-at      document-start
 // ==/UserScript==
 
@@ -44,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	}, unsafeWindow);
 	
 	unsafeWindow.CopyToClipboard = exportFunction(function(text) {
-		GM_setClipboard(text);
+		GM.setClipboard(text);
 		unsafeWindow.ShowAlertDialog("Text Copied", '"' + text + '" has been copied to your clipboard.', "OK");
 		idDialog.Dismiss();
 	}, unsafeWindow);
